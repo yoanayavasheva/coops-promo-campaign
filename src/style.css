@@ -44,7 +44,6 @@ body {
   padding: 10px 20px;
   background-color: white;
   border-radius: 50px;
-  text-align: center;
   border: 2px solid rgb(46, 28, 113);
   display: block;
   margin: 0 10px;
@@ -53,7 +52,7 @@ body {
 img.image {
   max-width: 80%;
   display: block;
-  margin: 0 auto 70px;
+  margin: 0 auto;
 }
 
 img.icon {
@@ -66,13 +65,56 @@ img.icon {
   background-color: white;
   padding: 10px;
   display: block;
-  margin: 0 auto;
+  margin: 5px auto;
   max-width: 100px;
   text-align: center;
   border: 2px solid rgb(46, 28, 113);
   border-radius: 30px;
+  transition: 0.4s ease-in-out;
+  text-decoration: none;
+  color: rgb(46, 28, 113);
 }
 
-a {
-  text-decoration: none;
+.button:hover {
+  background-color: rgb(46, 28, 113);
+  cursor: pointer;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  margin: 10px;
+}
+
+.column h2 {
+  padding: 0 8px;
+}
+
+li {
+  line-height: 40px;
+}
+
+.quote {
+  font-size: 20px;
+  margin: 50px;
+}
+
+.section {
+  background-color: white;
+  border-top: 1mm solid rgb(46, 28, 113);
+  border-bottom: 1mm solid rgb(46, 28, 113);
+}
+
+.section ul {
+  list-style: none;
+}
+
+footer {
+  margin: 40px auto 10px;
+  font-size: 12px;
+  text-align: center;
 }
